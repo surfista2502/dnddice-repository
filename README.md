@@ -1,3 +1,4 @@
 # dnddice-repository
 My first repository
-A dice set to play Dungeons and Dragons with
+
+I created a simple dice set to play Dungeons and Dragons with as we needed it for our campaign. 
