@@ -56,4 +56,8 @@ input:hover {
 	background-color: 502916;
 }
 
-
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+	.result {
+		color: white;
+	}
+}
