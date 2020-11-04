@@ -7,7 +7,7 @@ var rollFourteen = document.getElementById("D14")
 var rollSixteen = document.getElementById("D16")
 var rollEighteen = document.getElementById("D18")
 var rollTwenty = document.getElementById("D20")
-
+let rollThirty = document.queySelector('#D30');
 
 function DiceFour () {
 const rollDiceFour = Math.floor (Math.random() *4) + 1;	
@@ -54,6 +54,9 @@ const rollDiceTwenty = Math.floor (Math.random() *20) + 1;
 rollTwenty.innerHTML = `${rollDiceTwenty}`;
 }
 
-
+const DiceThirty = () => {
+  const rollDiceThirty = Math.floor(Math.random() * 30) +1;
+  rollThirty.innerHTML = `${rollDiceThirty}`;
+}
 
 
